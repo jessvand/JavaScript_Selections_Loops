@@ -99,7 +99,7 @@ for(let i=1; i<=100; i++)
     
     let value = Math.round((Math.random()*500));
     let n = Math.round(Math.random()*(500-100)+100);
-    let found = false;
+    
 
     for(i=0; i<= n; i++)
         {
