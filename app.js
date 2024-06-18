@@ -106,15 +106,15 @@ for(let i=1; i<=100; i++)
             if(i === value)
             {
                 {
-                console.log(`${i}Found Value!!`);               
+                console.log(`${i} Found Value!!`);               
                 } 
                 break;              
                                    
             } 
 
-            i++
+            
 
-            if(i > n)
+            if(i === n)
             {
                 console.log("No Value Found");
             }
